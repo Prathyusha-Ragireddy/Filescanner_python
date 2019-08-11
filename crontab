@@ -1,0 +1,2 @@
+#*/5 * * * * cd /tmp/filescanner && python filescan.py tmp >> /var/log/filescan.log
+* * * * * cd /tmp/filescanner && python filescan.py tmp | tee /var/log/filescan.log
