@@ -21,3 +21,9 @@ docker run -dit -v $(pwd)/tmp:/tmp/filescanner/tmp -v $(pwd)/filescan.log:/var/l
 # To check the logs
 
 docker logs -f filescanner
+
+--------------------------------------------------------------------------------
+# Logs & output png
+ 
+The left terminal shows the output of before and after modififations in the folder.
+Right teminal shows how the changes are logged in when modifications are made. 
