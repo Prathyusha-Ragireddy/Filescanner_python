@@ -7,9 +7,10 @@ python3 filescanner.py <filepath>
 Note: default filepath will be current directory
 
 # Build as docker container:
-# (.) Takes the Dockerfile in the current directory and builds the image with the tag name fielscanner
 
 docker build -t filescanner .
+
+Note : (.) Takes the Dockerfile in the current directory and builds the image with the tag name filescanner
 
 # logs the changed to filescan.log in the tmp folder
 
